@@ -52,5 +52,10 @@ else if (
         (computerMove == "nożyce" && playerMove == "papier")
       ) {
         printMessage("Przegrywasz!");}
+else {
+        printMessage(
+          "Nie mam wystarczającej ilości danych, by roztrzygnąć ten pojedynek :("
+        );
+      }
 
 
